@@ -41,7 +41,7 @@ png("plot4.png")
 par(mfrow = c(2, 2))
 
 # First Graph: Global Active Power
-plot(power$DateTime, power$Global_active_power, ylab = "Global Active Power (kilowats)", xlab = "", type = "l")
+plot(power$DateTime, power$Global_active_power, ylab = "Global Active Power", xlab = "", type = "l")
 
 # Second Graph: Voltage
 plot(power$DateTime, power$Voltage, ylab = "Voltage", xlab = "datetime", type = "l")
